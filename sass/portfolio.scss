@@ -1,0 +1,18 @@
+@import "./utils/variables";
+
+/* BASE */
+@import "./base/common-portfolio";
+@import "./base/container";
+
+/* COMPONENTS */
+@import "./components/logo";
+@import "./components/navigation-links";
+@import "./components/filter-btn";
+@import "./components/gallery";
+@import "./components/social-footer";
+
+/* LAYOUT */
+@import "./layout/header";
+@import "./layout/header-portfolio";
+@import "./layout/footer";
+@import "./layout/modal";

@@ -1,0 +1,23 @@
+.prof-team {
+  background: var(--prof-team);
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.team-list {
+  width: 270px;
+  background: var(--light-color);
+  box-sizing: border-box;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+}
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.name-list {
+  padding: 30px 32px;
+}

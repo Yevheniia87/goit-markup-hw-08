@@ -1,0 +1,22 @@
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.options {
+  padding-bottom: 94px;
+}
+.text-container {
+  display: flex;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.images {
+  position: relative;
+  width: 370px;
+  box-sizing: border-box;
+  margin: 15px;
+}
