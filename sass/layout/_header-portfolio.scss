@@ -1,7 +1,12 @@
+.navigation-list {
+  display: none;
+}
 .header {
   background: var(--light-color);
   border-bottom: 1px solid #ececec;
 }
+
+/*
 .navigation {
   display: flex;
   align-items: center;

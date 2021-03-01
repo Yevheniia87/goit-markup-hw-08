@@ -18,6 +18,7 @@
   justify-content: center;
 }
 .logo {
+  display: block;
   font-family: Raleway;
   width: 154px;
   font-weight: 700;
@@ -31,64 +32,13 @@
 .logo-style-footer {
   color: var(--light-color);
 }
-@media screen and (min-width: 768px) {
-  .studia {
-    color: var(--color-item-page);
-  }
-  .logo {
-    
-  }
-@media screen and (min-width: 1200px) {
-  
-}
-
-/*.current::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 48px;
-  height: 4px;
-  background-color: var(--line);
-  border-radius: 2px;
-} 
-
-.logotype {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.174;
-  letter-spacing: 0.03em;
-  color: var(--logo-span);
-  text-decoration: none;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  width: 145px;
-  margin-right: 93px;
-}
-
-.logo-img {
-  color: var(--logo-nav-header);
-}
 
 .studia {
   color: var(--color-item-page);
 }
-
-.logo-footer-item {
-  display: block;
+.portfolio {
+  color: var(--color-item-page);
 }
-
-.logo-style-footer {
-  color: var(--light-color);
+@media screen and (min-width: 1200px) {
+  
 }
-
-.logo {
-  font-family: Raleway;
-  width: 145px;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.174;
-  letter-spacing: 0.03em;
-  color: var(--logo-span);
-  text-decoration: none;

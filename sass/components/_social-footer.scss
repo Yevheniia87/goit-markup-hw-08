@@ -1,4 +1,23 @@
-.footer-social-title {
+.footer-social-list-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.footer-social-list-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  background-color: #484957;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+
+
+
+/*.footer-social-title {
   display: block;
   font-weight: 700;
   font-size: 14px;

@@ -3,12 +3,14 @@
   padding-bottom: 60px;
   background: var(--dark-color);
 }
-.footer-container {
-  display: block;
-}
+
 @media screen and (min-width: 768px) {
   .footer-container {
     display: flex;
+  }
+  .footer-social-block {
+    margin-left: 165px;
+    margin-top: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -16,7 +18,14 @@
     display: flex;
     align-items: baseline;
   }
+  .footer-social-block {
+    margin-left: 70px;
+  }
+  .footer-social-list {
+    display: flex;
+  }
 }
+
 /*.footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -35,4 +44,4 @@
 
 .footer-social-list {
   display: flex;
-}*/
+}

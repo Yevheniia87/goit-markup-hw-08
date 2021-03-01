@@ -8,11 +8,10 @@
   margin-bottom: 30px;
 }
 .description-list-link {
+  display: block;
   width: 450px;
   height: 120px;
-  display: block;
-  justify-content: center;
-  align-items: center;
+
   border-radius: 4px;
   margin-bottom: 30px;
   background-color: var(--desk-link);
@@ -40,6 +39,16 @@
   margin-top: 10px;
   margin-bottom: 16px;
 }
+.footer-social-title {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-color);
+  margin-bottom: 20px;
+}
 @media screen and (min-width: 768px) {
   .description {
     margin: 15px;
@@ -53,6 +62,7 @@
     width: 354px;
   }
   .description-list-link {
+    display: block;
     width: 354px;
     height: 120px;
     display: flex;
