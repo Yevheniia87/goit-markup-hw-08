@@ -4,6 +4,26 @@
   background: var(--dark-color);
 }
 .footer-container {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
+}
+/*.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--dark-color);
+}
+
+.footer-container {
   display: flex;
   align-items: baseline;
 }
@@ -15,4 +35,4 @@
 
 .footer-social-list {
   display: flex;
-}
+}*/

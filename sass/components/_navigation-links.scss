@@ -1,3 +1,18 @@
+.address {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contacts-list-link {
+  color: var(--light-color);
+}
+
 /*.contacts {
     display: flex;
     margin-left: auto;
