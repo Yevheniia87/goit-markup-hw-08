@@ -1,16 +1,15 @@
 @import "./utils/variables";
 
 /* BASE */
-@import "./base/common-portfolio";
 @import "./base/container";
+@import "./base/common";
 
 /* COMPONENTS */
 @import "./components/logo";
-@import "./components/navigation-links";
-@import "./components/filter-btn";
-@import "./components/gallery";
+@import "./components/social-links";
+@import "./components/title";
 
 /* LAYOUT */
 @import "./layout/header";
+@import "./layout/gallery";
 @import "./layout/footer";
-@import "./layout/modal";
