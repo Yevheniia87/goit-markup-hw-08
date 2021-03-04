@@ -1,21 +1,23 @@
 .benefits {
+  display: block;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .text-container {
   display: block;
+  flex-direction: column;
 }
 .description {
+  display: block;
   width: 270px;
   box-sizing: border-box;
 }
-.description:not(:last-child) {
-  margin-right: 30px;
-}
+
 .description-list-link {
-  width: 270px;
-  height: 120px;
   display: flex;
+  width: 450px;
+  height: 120px;
+
   background-color: #f5f4fa;
   justify-content: center;
   align-items: center;
@@ -32,32 +34,28 @@
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--text);
-  width: 270px;
+  width: 450px;
 }
-@media screen and (max-width: 767px) {
-  .options {
-    display: none;
-  }
+.description:not(:last-child) {
+  margin-bottom: 30px;
 }
+
 @media screen and (min-width: 768px) {
-  .benefits {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .text-container {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
   }
-  .options {
-    display: none;
+  .description {
+    margin: 15px;
+  }
+  .description-list-link {
+    display: flex;
+
+    width: 354px;
   }
 }
-@media screen and (max-width: 1199px) {
-  .options {
-    display: none;
-  }
-}
+
 @media screen and (min-width: 1200px) {
   .benefits {
     padding-top: 94px;
@@ -66,40 +64,26 @@
   .text-container {
     display: flex;
   }
-  .options {
-    padding-bottom: 94px;
-  }
-  .images-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
-  }
-  .images {
-    position: relative;
-    width: 370px;
-    box-sizing: border-box;
-    margin: 15px;
-  }
 }
-/*.benefits {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.options {
-  padding-bottom: 94px;
-}
-.text-container {
-  display: flex;
-}
-
-.images-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
-}
-.images {
-  position: relative;
-  width: 370px;
-  box-sizing: border-box;
-  margin: 15px;
-}*/
+//.description-list-link {
+//  width: 270px;
+//  height: 120px;
+//  display: flex;
+//  background-color: #f5f4fa;
+///  justify-content: center;
+//  align-items: center;
+//  border-radius: 4px;
+//  margin-bottom: 30px;
+//}
+//.description-list-icon {
+//  width: 70px;
+//  height: 70px;
+//}
+//.description-text {
+//  font-weight: 400;
+//  font-size: 14px;
+//  line-height: 1.714;
+//  letter-spacing: 0.03em;
+//  color: var(--text);
+//  width: 270px;
+//}

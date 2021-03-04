@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="header portfolio">
+    <header class="header header-portfolio">
         <div class="container">
             <nav class="navigation">
                 <a class="logotype" href="./index.html">
@@ -37,6 +37,12 @@
                 </ul>
             </nav>
 
+            <button type="button" class="burger-btn" data-menu-button>
+                <svg class="burger-icon">
+                    <use href="./img/sprite.svg.svg#icon-menu"></use>
+                </svg>
+            </button>
+
             <ul class="contacts">
                 <li class="contacts-list list">
                     <a class="mail-link link" href="mailto:info@devstudio.com">
@@ -53,12 +59,54 @@
                     </a>
                 </li>
             </ul>
+        </div>
 
+        <div class="mobile-menu" data-menu>
+            <button type="button" class="mobile-close-btn" data-menu-close>
+                <svg class="close-icon">
+                    <use href="./img/sprite.svg.svg#icon-close"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu-nav list">
+                <li class="mobile-menu-list">
+                    <a href="./index.html" class="mobile-menu-link link"><span class="studia">Студия</span></a>
+                </li>
+                <li class="mobile-menu-list">
+                    <a href="./portfolio.html" class="mobile-menu-link link">Портфолио</a>
+                </li>
+                <li class="mobile-menu-list">
+                    <a href="#" class="mobile-menu-link link">Контакты</a>
+                </li>
+            </ul>
+
+            <ul class="mobile-menu-contacts list">
+                <li class="mobile-contacts-list">
+                    <a href="tel:+380961111111" class="mobile-phone link">+38 096 111 11 11</a>
+                </li>
+                <li class="mobile-contacts-list">
+                    <a href="mailto:info@devstudio.com" class="mobile-mail link">info@devstudio</a>
+                </li>
+            </ul>
+
+            <ul class="mobile-menu-social list">
+                <li class="mobile-social-list">
+                    <a href="#" class="mobile-social-link link">Instagram</a>
+                </li>
+                <li class="mobile-social-list">
+                    <a href="#" class="mobile-social-link link">Twitter</a>
+                </li>
+                <li class="mobile-social-list">
+                    <a href="#" class="mobile-social-link link">Facebook</a>
+                </li>
+                <li class="mobile-social-list">
+                    <a href="#" class="mobile-social-link link">LinkedIn</a>
+                </li>
+            </ul>
         </div>
     </header>
 
     <!--Navigation-->
-    <!--main>
+    <main>
         <section class="information-container">
             <div class="container">
                 <div class="btn-block">
@@ -83,7 +131,7 @@
                 </div>
 
                 <!--GALLERY-->
-    <div class="container">
+                <!--div class="container">
         <h2 hidden>Наши работы</h2>
         <ul class="gallery-board list">
             <li class="gallery-list">
@@ -298,9 +346,9 @@
             </div>
 
         </div>
-    </footer>
+    </footer-->
 
-    <script src="./js/mobile-menu.js"></script>
+                <script src="./js/mobile-menu.js"></script>
 
 </body>
 
